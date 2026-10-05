@@ -1,0 +1,64 @@
+{
+  "decision": "emergency",
+  "headline": "Go to emergency department now.",
+  "reasons": [
+    {
+      "sign": "Temperature",
+      "finding": "38.4\u00b0C",
+      "concern": true
+    },
+    {
+      "sign": "Pain",
+      "finding": "7 out of 10",
+      "concern": true
+    },
+    {
+      "sign": "Discharge",
+      "finding": "cloudy yellow or green",
+      "concern": true
+    },
+    {
+      "sign": "Wound edges",
+      "finding": "come apart / open",
+      "concern": true
+    },
+    {
+      "sign": "Redness",
+      "finding": "extends beyond incision line with reddish spots",
+      "concern": true
+    },
+    {
+      "sign": "Photo",
+      "finding": "open wound with yellowish-orange tissue, redness beyond line, yellowish crust",
+      "concern": true
+    }
+  ],
+  "steps": [
+    "Call 999 (or 911) immediately.",
+    "Go to the nearest A&E/Emergency Department.",
+    "Keep the wound covered with a clean dry cloth if you can.",
+    "Do not eat or drink until you are seen."
+  ],
+  "message_to_team": "I have a fever of 38.4\u00b0C, my wound is open with yellow/green discharge and redness spreading beyond the stitch line. I am heading to A&E now. Please let me know if you need any more information.",
+  "photo_disagrees": false,
+  "second_check": {
+    "model": "Nemotron Ultra",
+    "agrees": true,
+    "note": "Fever with wound dehiscence, spreading purplish discoloration, and purulent discharge indicate a serious surgical site infection requiring immediate emergency evaluation."
+  },
+  "photo_words": "The wound is open in the center with the edges apart, revealing a dark gap and yellowish-orange tissue; no stitches, staples, or glue are visible. Redness and a faint purplish discoloration extend beyond the incision line, with small reddish spots nearby. Yellowish crusting or discharge is present at the margins of the open gap. Swelling is not clearly visible. Faint purplish bruising is visible on the surrounding skin.",
+  "events": [
+    {
+      "t": "2026-10-05T01:03:18",
+      "text": "Photo description loaded from the saved reading."
+    },
+    {
+      "t": "2026-10-05T01:03:18",
+      "text": "Nemotron Super is weighing the answers against the baseline."
+    },
+    {
+      "t": "2026-10-05T01:03:25",
+      "text": "Nemotron Ultra is double-checking the alarm."
+    }
+  ]
+}

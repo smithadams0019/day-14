@@ -1,0 +1,65 @@
+{
+  "decision": "no_change",
+  "headline": "Your wound looks as expected and you have no warning signs today.",
+  "reasons": [
+    {
+      "sign": "Temperature",
+      "finding": "36.8\u202f\u00b0C",
+      "concern": false
+    },
+    {
+      "sign": "Pain",
+      "finding": "2 out of 10",
+      "concern": false
+    },
+    {
+      "sign": "Discharge",
+      "finding": "none reported",
+      "concern": false
+    },
+    {
+      "sign": "Redness",
+      "finding": "no redness visible beyond incision line",
+      "concern": false
+    },
+    {
+      "sign": "Wound edges",
+      "finding": "edges together, closed as a thin line",
+      "concern": false
+    },
+    {
+      "sign": "Feeling unwell",
+      "finding": "none reported",
+      "concern": false
+    },
+    {
+      "sign": "Photo",
+      "finding": "incision closed, small dark red\u2011brown crusts, no wet discharge, no swelling",
+      "concern": false
+    },
+    {
+      "sign": "Healing since baseline",
+      "finding": "crusts are normal healing; no change from baseline",
+      "concern": false
+    }
+  ],
+  "steps": [
+    "Keep the wound clean and dry.",
+    "Continue with any prescribed activity restrictions.",
+    "Check again tomorrow; call if you notice fever \u226538\u202f\u00b0C, spreading redness, increased pain, new discharge, bad smell, or wound opening."
+  ],
+  "message_to_team": "",
+  "photo_disagrees": false,
+  "second_check": null,
+  "photo_words": "The incision appears closed as a thin line, with no staples or stitches clearly visible. No redness is visible none beyond the incision line. No obvious swelling is seen; the skin looks flat. Small dark red\u2011brown crusts are present at a couple of points along the line, with no wet discharge visible. The wound edges appear together",
+  "events": [
+    {
+      "t": "2026-10-05T01:03:03",
+      "text": "Photo description loaded from the saved reading."
+    },
+    {
+      "t": "2026-10-05T01:03:03",
+      "text": "Nemotron Super is weighing the answers against the baseline."
+    }
+  ]
+}

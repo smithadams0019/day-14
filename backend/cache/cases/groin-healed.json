@@ -1,0 +1,51 @@
+{
+  "decision": "watch",
+  "headline": "Your wound looks mostly healed but there is some mild redness beyond the stitch line.",
+  "reasons": [
+    {
+      "sign": "Temperature",
+      "finding": "36.6\u00b0C",
+      "concern": false
+    },
+    {
+      "sign": "Pain",
+      "finding": "0 out of 10",
+      "concern": false
+    },
+    {
+      "sign": "Discharge",
+      "finding": "none",
+      "concern": false
+    },
+    {
+      "sign": "Redness",
+      "finding": "pinkish redness visible beyond the incision line (distance unclear)",
+      "concern": true
+    },
+    {
+      "sign": "Wound edges",
+      "finding": "edges approximated, not apart",
+      "concern": false
+    }
+  ],
+  "steps": [
+    "Check your temperature twice today and tomorrow.",
+    "Keep the wound clean and dry; avoid tight clothing over the area.",
+    "Watch for increasing redness, new discharge, worsening pain, or fever \u226538\u00b0C.",
+    "Contact your surgical team if any of these changes occur."
+  ],
+  "message_to_team": "Hi team, on day 30 my groin incision is closed with staples, pain 0/10, temperature 36.6\u00b0C, no discharge. I see some pinkish redness beyond the stitch line that wasn\u2019t present before. No fever or worsening pain. Please advise if I should come in for a check.",
+  "photo_disagrees": false,
+  "second_check": null,
+  "photo_words": "The wound is closed with small dark fasteners (staples or suture points) spaced along a linear incision. Pinkish redness is visible beyond the thin incision line, but a distance cannot be clearly measured. No obvious swelling is visible. A small dark brown/black crust is present at the upper end of the incision, with no other discharge seen. The edges appear approximated (not apart), and no clear bruising is visible.",
+  "events": [
+    {
+      "t": "2026-10-05T01:13:36",
+      "text": "Photo description loaded from the saved reading."
+    },
+    {
+      "t": "2026-10-05T01:13:36",
+      "text": "Nemotron Super is weighing the answers against the baseline."
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "decision": "call_today",
+  "headline": "You have a fever and a bad smell from the wound \u2013 please call your surgical team today.",
+  "reasons": [
+    {
+      "sign": "Temperature",
+      "finding": "38.1\u00b0C",
+      "concern": true
+    },
+    {
+      "sign": "Pain",
+      "finding": "7 out of 10",
+      "concern": true
+    },
+    {
+      "sign": "Smell",
+      "finding": "bad smell under the dressing",
+      "concern": true
+    },
+    {
+      "sign": "Feeling unwell",
+      "finding": "feeling hot and achy since last night",
+      "concern": true
+    },
+    {
+      "sign": "Redness",
+      "finding": "reddish-brown bruising and streaking beyond the incision line on photo",
+      "concern": true
+    },
+    {
+      "sign": "Wound edges",
+      "finding": "wound edges appear together, not apart",
+      "concern": false
+    }
+  ],
+  "steps": [
+    "Call your surgical team now to report the fever, bad smell, and pain.",
+    "Keep the dressing clean and dry; do not remove it.",
+    "Monitor your temperature and any changes in the wound's appearance.",
+    "Seek immediate help if you develop severe breathlessness, confusion, or the wound opens."
+  ],
+  "message_to_team": "I have a fever of 38.1\u00b0C, a bad smell under my dressing, and my pain is 7/10. The wound looks closed but there is reddish streaking beyond the stitches. Please advise what to do next.",
+  "photo_disagrees": false,
+  "second_check": {
+    "model": "Nemotron Ultra",
+    "agrees": true,
+    "note": "Fever and foul odor suggest possible infection requiring prompt surgical review."
+  },
+  "photo_words": "The wound is closed with black interrupted stitches (sutures), with tied ends visible along the line. There is reddish-brown bruising and streaking beyond the incision line, including a vertical streak on the right; no clear distance is visible. Swelling is not clearly visible. Reddish-brown crust and blood staining are present at several suture sites; no other discharge is visible. The wound edges appear together, not apart.",
+  "events": [
+    {
+      "t": "2026-10-05T01:13:24",
+      "text": "Qwen is describing the photo."
+    },
+    {
+      "t": "2026-10-05T01:13:28",
+      "text": "Nemotron Super is weighing the answers against the baseline."
+    },
+    {
+      "t": "2026-10-05T01:13:35",
+      "text": "Nemotron Ultra is double-checking the alarm."
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "decision": "call_today",
+  "headline": "You have spreading redness around your wound; please contact your surgical team today.",
+  "reasons": [
+    {
+      "sign": "Temperature",
+      "finding": "37.2\u00b0C",
+      "concern": false
+    },
+    {
+      "sign": "Pain",
+      "finding": "6 out of 10",
+      "concern": false
+    },
+    {
+      "sign": "Redness",
+      "finding": "Spreading beyond incision line as a broad patch around the lower end",
+      "concern": true
+    },
+    {
+      "sign": "Discharge",
+      "finding": "None reported",
+      "concern": false
+    },
+    {
+      "sign": "Smell",
+      "finding": "No bad smell reported",
+      "concern": false
+    },
+    {
+      "sign": "Wound edges",
+      "finding": "Edges remain approximated, not gaping",
+      "concern": false
+    },
+    {
+      "sign": "Feeling unwell",
+      "finding": "No feeling unwell reported",
+      "concern": false
+    },
+    {
+      "sign": "Photo",
+      "finding": "Redness extends beyond incision line, mild swelling, edges intact, small dark crusts present",
+      "concern": true
+    },
+    {
+      "sign": "Healing since baseline",
+      "finding": "Compared to baseline pale skin, now redness spreading",
+      "concern": true
+    }
+  ],
+  "steps": [
+    "Call your surgical team today to report the spreading redness.",
+    "Check your temperature twice daily and note any fever of 38\u00b0C or higher.",
+    "Keep the wound clean and dry; avoid scratching or applying creams.",
+    "If you develop fever, worsening pain, or the wound opens, seek urgent care."
+  ],
+  "message_to_team": "Hello, I am day 4 after abdominal surgery. I have noticed spreading redness around the lower part of my incision, with warmth and tenderness, though my temperature is 37.2\u00b0C and there is no discharge or foul smell. Please advise if I need to be seen today.",
+  "photo_disagrees": false,
+  "second_check": {
+    "model": "Nemotron Ultra",
+    "agrees": true,
+    "note": "Spreading redness with warmth and tenderness suggests possible wound infection requiring prompt surgical review."
+  },
+  "photo_words": "The wound is closed with a vertical line of interrupted stitches. Redness extends beyond the incision line as a broad patch around the lower end; a distance is not clearly measurable. The skin in that red area looks mildly swollen, and the wound edges are not apart. Small dark crusts sit along",
+  "events": [
+    {
+      "t": "2026-10-05T01:03:07",
+      "text": "Photo description loaded from the saved reading."
+    },
+    {
+      "t": "2026-10-05T01:03:07",
+      "text": "Nemotron Super is weighing the answers against the baseline."
+    },
+    {
+      "t": "2026-10-05T01:03:16",
+      "text": "Nemotron Ultra is double-checking the alarm."
+    }
+  ]
+}
